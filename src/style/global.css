@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+    --primary-color:#04FC95;
+    --secundary-color:#f6f9fa;
+    --background-color:#ffffff;
+    --width:512px;
+}
+
+html, body, #root{
+    height: 100%;
+    margin:0;
+    font-family: 'Arial', 'Tahoma', 'Sans-serif';
+}
+
+#root{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap:1em;
+    padding: .5em;
+    background-color: var(--primary-color);
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+  
+::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+}
+   
+::-webkit-scrollbar-thumb {
+    background: #888; 
+}
+  
+::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+}

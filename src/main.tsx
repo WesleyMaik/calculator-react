@@ -1,0 +1,17 @@
+//Modules
+import React from 'react'
+import ReactDOM from 'react-dom/client'
+import { Footer } from './layout/footer';
+
+//Index
+import App from './page/App';
+
+//Style
+import './style/global.css';
+
+ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
+  <React.StrictMode>
+    <App />
+    <Footer />
+  </React.StrictMode>
+)
