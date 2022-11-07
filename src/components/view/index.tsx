@@ -145,7 +145,7 @@ View.displayName = 'View';
 
 //Container
 const HistoryContainer = styled.div`
-    width:75%;
+    width:100%;
     height:100%;
     padding:1em;
     border-radius:6px;
