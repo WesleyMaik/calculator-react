@@ -36,7 +36,7 @@ yarn install
 ## Run
 
 ```
-npm dev
+npm run dev
 ```
 or
 ```
